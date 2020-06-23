@@ -1,185 +1,68 @@
 @font-face {
-    src: url('CenturyStd-BookCondensed.otf');
-    font-family: 'Century Condensed';
-    font-weight: 400;
+  src: url("CenturyStd-BookCondensed.otf");
+  font-family: "Century Condensed";
+  font-weight: 400;
 }
 
-html, body {
-    width: 100%;
-    height: 100%;
+@font-face {
+  src: url("self_modern_trial.otf");
+  font-family: "Self Modern";
+  font-weight: 400;
+}
+
+@font-face {
+  src: url("self_modern_italic_trial.otf");
+  font-family: "Self Modern";
+  font-weight: 400;
+  font-style: italic;
 }
 
 html {
-    font-size: 16px;
-    font-family: 'Century Condensed', sans-serif;
-    color: rgba(0, 0, 0, 0.6);
-    background-color: white;
-    line-height: 1.4;
+  font-family: "Self Modern";
+  font-size: 2rem;
+  color: rgba(14, 0, 32, 0.7);
+  background: white;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-}
-
-main {
-    box-sizing: border-box;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding: 6vw;
-    width: 100%;
-    min-height: 100%;
-
-    background-image: linear-gradient(to bottom, white 50%, #D9CFDF);
-}
-
-main > *:not(:last-child) {
-    margin-bottom: 6vw;
-}
-
-.intro-image {
-    width: 100%;
-    height: 0;
-    padding-bottom: 68.6%;
-}
-
-.intro {
-    position: relative;
-    font-size: 1.6rem;
-    max-width: 14em;
-}
-
-.image-container {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    opacity: 0;
-    transition: opacity 1000ms ease-out;
-}
-
-.image-container.is-loaded {
-    opacity: 1;
-}
-
-.image-container img {
-    display: none;
-    width: 100%;
-    height: 100%;
-}
-
-.contact {
-    display: flex;
-}
-
-.contact > * {
-    margin-right: 1em;
-}
-
-ul {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    padding-left: 2em;
-    list-style: none;
-}
-
-li {
-    position: relative;
-    margin: 0.5em 0;
-}
-
-li::before {
-    content: '';
-    position: absolute;
-    top: 0.6em;
-    left: -1.5em;
-    width: 1em;
-    height: 1px;
-    background-color: black;
-}
-
-p {
-    margin: 0;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-    border-bottom: solid 1px rgba(255, 255, 255, 0.7);
-}
-
-a:hover {
-    border-color: white;
+  margin: 1rem;
+  line-height: 1.5;
 }
 
 h1 {
-    display: inline;
-    font-size: inherit;
-    font-weight: inherit;
-    color: black;
-    margin: 0;
+  font-size: 4rem;
+  font-style: italic;
+  letter-spacing: -0.04ch;
 }
 
-@media all and (min-aspect-ratio: 1/1) {
-    html {
-        color: white;
-        background-color: black;
-    }
-
-    main {
-        padding-left: 50vw;
-        background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.6) 80%);
-    }
-
-    main > *:not(:last-child) {
-        margin-bottom: 4vw;
-    }
-
-    main > .intro-image {
-        margin-bottom: 0;
-    }
-
-    .intro-image {
-        position: absolute;
-        z-index: -1;
-
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        padding: 0;
-        margin: 0;
-    }
-
-    .intro {
-        color: rgba(255, 255, 255, 0.7);
-        margin-bottom: 1em;
-    }
-
-    ul {
-        padding: 0;
-    }
-
-    li::before {
-        background-color: white;
-    }
-
-    h1 {
-        color: white;
-    }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
 }
 
-@media all and (min-width: 600px) {
-    html {
-        font-size: 20px;
-    }
+hr {
+  border-top: solid 1px rgba(14, 0, 32, 0.5);
 }
 
-@media all and (min-width: 1200px) {
-    html {
-        font-size: 1.5vw;
-    }
+a {
+  font-style: italic;
+  color: inherit;
+  text-decoration: none;
+  border: solid 1px rgba(14, 0, 32, 0.5);
+  border-radius: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+a:hover {
+  border-color: rgba(14, 0, 32, 1);
+}
+
+b,
+strong {
+  font-weight: normal;
+  color: rgba(14, 0, 32, 1);
 }

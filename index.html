@@ -1,63 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-	<meta name="author" content="Jonas Luebbers"/>
-	<title>Julie Moon</title>
-	<link rel="stylesheet" href="style.css">
-	<script src="main.js" defer></script>
-</head>
-<body>
-	<main>
-		<div class="intro-image image-container">
-			<img data-src="img-01-cropped.jpg" alt="Julie at a computer">
-		</div>
-		<div class="intro">
-			<h1>Julie Moon</h1> is a writer, translator and teacher living in New York City. She was born in South Korea and is currently a teaching fellow at&nbsp;Columbia&nbsp;University.
-		</div>
-		<div class="contact">
-			<a href="mailto:hellonow@juliemoon.info">Email</a>
-			<a href="https://www.instagram.com/jhmoon612/">Instagram</a>
-		</div>
-		<ul>
-			<li>
-				Iowa Arts Fellow
-			</li>
-			<li>
-				<a href="https://catapult.co/stories/essay-grandmothers-eyes-korean-history-family-legacy-julie-moon">
-					Catapult
-				</a>
-			</li>
-			<li>
-				<a href="https://www.essaydaily.org/2019/01/julie-moon-finding-mothers.html">
-					Essay Daily
-				</a>
-			</li>
-			<li>
-				<a href="https://www.degruyter.com/view/j/reveh.ahead-of-print/reveh-2017-0008/reveh-2017-0008.xml?format=INT">
-					Reviews on Environmental Health
-				</a>
-			</li>
-			<li>
-				<a href="https://hirshhorn.si.edu/event/sound-scene-xi-mapping-memory/2018-07-07/">
-					SoundScene at the Smithsonian Hirshhorn&nbsp;Museum
-				</a>
-			</li>
-			<li>
-				<a href="https://www.missourireview.com/2018-miller-audio-prize-winner-in-poetry-date-paintings-by-julie-moon/">
-					Missouri Review's Miller Audio Prize in&nbsp;Poetry
-				</a>
-			</li>
-			<li>
-				<a href="http://columbiajournal.org/do-ho-suh-building-a-new-definition-of-home/">Columbia Journal</a>
-			</li>
-			<li>
-				<a href="https://therumpus.net/2019/03/i-am-yours-by-reema-zaman/">The Rumpus</a>
-			</li>
-			<li>
-				<a href="https://brooklynrail.org/2019/06/fiction/Dalloways-Window">Brooklyn Rail</a>
-			</li>
-		</ul>
-	</main>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="author" content="Jonas Luebbers" />
+    <title>Julie Moon</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="content"></main>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+      async function main() {
+        const response = await fetch("./content.md");
+        const text = await response.text();
+        document.getElementById("content").innerHTML = marked(text);
+      }
+
+      main();
+    </script>
+  </body>
+</html>
