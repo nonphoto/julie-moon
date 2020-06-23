@@ -17,22 +17,86 @@
   font-style: italic;
 }
 
+*,
+*:before,
+*:after {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
 html {
+  --purple: rgba(120, 86, 173, 1);
+  --purpleLight: rgba(120, 86, 173, 0.5);
+  --blue: rgba(15, 92, 206, 1);
+  --blueLight: rgba(15, 92, 206, 0.5);
+  --cyan: rgba(124, 183, 190, 1);
+  --cyanLight: rgba(124, 183, 190, 0.5);
+  --green: rgba(20, 129, 113, 1);
+  --greenLight: rgba(20, 129, 113, 0.5);
+  --orange: rgba(252, 136, 0, 1);
+  --orangeLight: rgba(252, 136, 0, 0.5);
+  --red: rgba(230, 59, 60, 1);
+  --redLight: rgba(230, 59, 60, 0.5);
+  --brown: rgba(136, 64, 91, 1);
+  --brownLight: rgba(136, 64, 91, 0.5);
+
   font-family: "Self Modern";
-  font-size: 2rem;
   color: rgba(14, 0, 32, 0.7);
-  background: white;
+  background: #e5d7ea;
+  font-size: calc(1rem + (3 - 1) * (100vw - 20rem) / (90 - 20));
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline;
+}
+
+li:nth-child(8n) {
+  color: var(--purple);
+}
+li:nth-child(8n + 2) {
+  color: var(--blue);
+}
+li:nth-child(8n + 4) {
+  color: var(--cyan);
+}
+li:nth-child(8n + 6) {
+  color: var(--green);
+}
+li:nth-child(8n + 1) {
+  color: var(--orange);
+}
+li:nth-child(8n + 3) {
+  color: var(--red);
+}
+li:nth-child(8n + 5) {
+  color: var(--brown);
 }
 
 body {
-  margin: 1rem;
+  margin: 0.5rem;
   line-height: 1.5;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-style: italic;
   letter-spacing: -0.04ch;
+  text-align: end;
+  margin-right: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 40rem) {
+  h1 {
+    font-size: 4rem;
+    margin-right: 2rem;
+  }
 }
 
 h1,
@@ -45,24 +109,24 @@ h6 {
 }
 
 hr {
-  border-top: solid 1px rgba(14, 0, 32, 0.5);
+  border-top: solid 1px currentColor;
 }
 
 a {
   font-style: italic;
   color: inherit;
   text-decoration: none;
-  border: solid 1px rgba(14, 0, 32, 0.5);
+  border: solid 1px currentColor;
   border-radius: 0.5rem;
   padding: 0 0.5rem;
 }
 
 a:hover {
-  border-color: rgba(14, 0, 32, 1);
+  border-color: currentColor;
 }
 
 b,
 strong {
   font-weight: normal;
-  color: rgba(14, 0, 32, 1);
+  color: currentColor;
 }
