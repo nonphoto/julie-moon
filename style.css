@@ -26,21 +26,22 @@
 
 html {
   --purple: rgba(120, 86, 173, 1);
-  --purpleLight: rgba(120, 86, 173, 0.5);
+  --purpleLight: rgba(120, 86, 173, 0.1);
   --blue: rgba(15, 92, 206, 1);
-  --blueLight: rgba(15, 92, 206, 0.5);
-  --cyan: rgba(124, 183, 190, 1);
-  --cyanLight: rgba(124, 183, 190, 0.5);
+  --blueLight: rgba(15, 92, 206, 0.1);
+  --cyan: rgba(95, 175, 185, 1);
+  --cyanLight: rgba(95, 175, 185, 0.1);
   --green: rgba(20, 129, 113, 1);
-  --greenLight: rgba(20, 129, 113, 0.5);
+  --greenLight: rgba(20, 129, 113, 0.1);
   --orange: rgba(252, 136, 0, 1);
-  --orangeLight: rgba(252, 136, 0, 0.5);
+  --orangeLight: rgba(252, 136, 0, 0.1);
   --red: rgba(230, 59, 60, 1);
-  --redLight: rgba(230, 59, 60, 0.5);
+  --redLight: rgba(230, 59, 60, 0.1);
   --brown: rgba(136, 64, 91, 1);
-  --brownLight: rgba(136, 64, 91, 0.5);
+  --brownLight: rgba(136, 64, 91, 0.1);
 
   font-family: "Self Modern";
+  line-height: 1.6;
   color: rgba(14, 0, 32, 0.7);
   background: #f4eef7;
   font-size: calc(1rem + (3 - 1) * (100vw - 20rem) / (90 - 20));
@@ -77,9 +78,30 @@ li:nth-child(8n + 5) {
   color: var(--brown);
 }
 
+li:nth-child(8n) > a:hover {
+  background: var(--purpleLight);
+}
+li:nth-child(8n + 2) > a:hover {
+  background: var(--blueLight);
+}
+li:nth-child(8n + 4) > a:hover {
+  background: var(--cyanLight);
+}
+li:nth-child(8n + 6) > a:hover {
+  background: var(--greenLight);
+}
+li:nth-child(8n + 1) > a:hover {
+  background: var(--orangeLight);
+}
+li:nth-child(8n + 3) > a:hover {
+  background: var(--redLight);
+}
+li:nth-child(8n + 5) > a:hover {
+  background: var(--brownLight);
+}
+
 body {
   margin: 0.5rem;
-  line-height: 1.5;
 }
 
 h1 {
@@ -88,11 +110,15 @@ h1 {
   letter-spacing: -0.04ch;
   text-align: end;
   margin-right: 1rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 @media (min-width: 40rem) {
+  html {
+    line-height: 1.5;
+  }
+
   h1 {
     font-size: 4rem;
     margin-right: 2rem;
@@ -119,10 +145,11 @@ a {
   border: solid 1px currentColor;
   border-radius: 0.5rem;
   padding: 0 0.5rem;
+  transition: background-color 100ms;
 }
 
 a:hover {
-  border-color: currentColor;
+  background: rgba(14, 0, 32, 0.1);
 }
 
 b,
