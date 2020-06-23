@@ -77,7 +77,6 @@ li:nth-child(8n + 3) {
 li:nth-child(8n + 5) {
   color: var(--brown);
 }
-
 li:nth-child(8n) > a:hover {
   background: var(--purpleLight);
 }
@@ -156,4 +155,14 @@ b,
 strong {
   font-weight: normal;
   color: currentColor;
+}
+
+.emdash {
+  display: inline-block;
+  width: 0.8rem;
+  height: 1px;
+  background: currentColor;
+  margin-bottom: 0.3rem;
+  margin-left: -0.15rem;
+  margin-right: -0.15rem;
 }
