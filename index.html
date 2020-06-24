@@ -21,10 +21,9 @@
       async function main() {
         const response = await fetch("./content.md");
         const text = await response.text();
-        document.getElementById("content").innerHTML = marked(text).replaceAll(
-          "—",
-          `<span class="emdash"></span>`
-        );
+        document.getElementById("content").innerHTML = marked(text)
+          .split("—")
+          .join(`<span class="emdash"></span>`);
       }
 
       main();
