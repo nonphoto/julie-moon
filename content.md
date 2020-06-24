@@ -2,7 +2,7 @@
 
 Julie is a South Korean writer, translator and teacher living in New York City. A former Iowa Arts Fellow, she teaches undergraduate writing at Columbia University. [Instagram](https://www.instagram.com/jhmoon612/), [Email](mailto:hellonow@juliemoon.info)
 
-- _Parasite and the Plurality of Empire_ — Film review in Public Books
+- _Parasite and the Plurality of Empire_ — Film review in [Public Books](https://www.publicbooks.org/parasite-and-the-plurality-of-empire/)
 - _What My Grandmother's Eyes Have Seen_ — Personal essay in [Catapult](https://catapult.co/stories/essay-grandmothers-eyes-korean-history-family-legacy-julie-moon)
 - Jenny Holzer: _For You_ — Translation for [National Museum of Modern and Contemporary Art, South Korea](https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201911140001205)
 - _Finding Mothers_ — Personal essay in [EssayDaily](https://www.essaydaily.org/2019/01/julie-moon-finding-mothers.html)
