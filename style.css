@@ -40,7 +40,7 @@ html {
   --brown: rgba(136, 64, 91, 1);
   --brownLight: rgba(136, 64, 91, 0.1);
 
-  font-family: "Self Modern";
+  font-family: "Self Modern", serif;
   line-height: 1.6;
   color: rgba(14, 0, 32, 0.7);
   background: #f4eef7;
@@ -101,27 +101,32 @@ li:nth-child(8n + 5) > a:hover {
 
 body {
   margin: 0.5rem;
+  margin-right: 1rem;
 }
 
-h1 {
-  font-size: 3rem;
+header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+header > h1 {
+  font-size: 12vw;
   font-style: italic;
   letter-spacing: -0.04ch;
-  text-align: end;
-  margin-right: 1rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  line-height: 1;
+  margin: 0;
 }
 
-@media (min-width: 40rem) {
-  html {
-    line-height: 1.5;
-  }
+header > img {
+  --size: 30vw;
+  width: var(--size);
+  height: calc(var(--size) * 4 / 3);
+  object-fit: cover;
+}
 
-  h1 {
-    font-size: 4rem;
-    margin-right: 2rem;
-  }
+img {
+  background-color: rgba(14, 0, 32, 0.1);
 }
 
 h1,

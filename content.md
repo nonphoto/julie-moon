@@ -1,5 +1,3 @@
-# Julie Moon
-
 Julie is a South Korean writer, translator and teacher living in New York City. A former Iowa Arts Fellow, she teaches undergraduate writing at Columbia University. [Instagram](https://www.instagram.com/jhmoon612/), [Email](mailto:hellonow@juliemoon.info)
 
 - _Parasite and the Plurality of Empire_ — Film review in [Public Books](https://www.publicbooks.org/parasite-and-the-plurality-of-empire/)
