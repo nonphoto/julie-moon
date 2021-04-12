@@ -11,4 +11,4 @@ Julie is a South Korean writer, translator and teacher living in New York City. 
 - Do Ho Suh: _The Perfect Home_ — Review in [Columbia Journal](http://columbiajournal.org/do-ho-suh-building-a-new-definition-of-home/)
 - Reema Zaman: _I am Yours_ — Book review in [The Rumpus](https://therumpus.net/2019/03/i-am-yours-by-reema-zaman/)
 - Seongwon Park: _Dalloway's Window_ — Translation in [Brooklyn Rail](https://brooklynrail.org/2019/06/fiction/Dalloways-Window)
-- Eunsung Kim: _My Mother's Story_ — Forthcoming translation in Arkansas International
+- Eunsung Kim: _My Mother's Story_ — Translation in [Arkansas International](https://www.arkint.org/eun-sung-kim) and [The Asian American Writers’ Workshop](https://aaww.org/my-mothers-story/)
