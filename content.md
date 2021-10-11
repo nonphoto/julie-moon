@@ -1,4 +1,4 @@
-Julie is a South Korean writer, translator and teacher living in New York City. A former Iowa Arts Fellow, she teaches undergraduate writing at Columbia University. [Instagram](https://www.instagram.com/jhmoon612/), [Email](mailto:hellonow@juliemoon.info)
+Julie is a South Korean writer, translator and teacher living in New York City. A former Iowa Arts Fellow and teaching fellow at Columbia University, she teaches high school english and history. [Instagram](https://www.instagram.com/jhmoon612/), [Email](mailto:hellonow@juliemoon.info)
 
 - _Parasite and the Plurality of Empire_ — Film review in [Public Books](https://www.publicbooks.org/parasite-and-the-plurality-of-empire/)
 - _What My Grandmother's Eyes Have Seen_ — Personal essay in [Catapult](https://catapult.co/stories/essay-grandmothers-eyes-korean-history-family-legacy-julie-moon)
