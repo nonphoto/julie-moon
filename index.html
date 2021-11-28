@@ -29,18 +29,93 @@
         ><span style="color: var(--orange)">n</span>
       </h1>
     </header>
-    <main id="content"></main>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script>
-      async function main() {
-        const response = await fetch("./content.md");
-        const text = await response.text();
-        document.getElementById("content").innerHTML = marked(text)
-          .split("—")
-          .join(`<span class="emdash"></span>`);
-      }
-
-      main();
-    </script>
+    <main id="content">
+      <p>
+        Julie is a South Korean writer, translator and teacher living in New
+        York City. A former Iowa Arts Fellow and teaching fellow at Columbia
+        University, she teaches high school english and history.
+        <a href="https://www.instagram.com/jhmoon612/">Instagram</a>,
+        <a href="mailto:hellonow@juliemoon.info">Email</a>
+      </p>
+      <ul>
+        <li>
+          <em>Parasite and the Plurality of Empire</em> — Film review in
+          <a
+            href="https://www.publicbooks.org/parasite-and-the-plurality-of-empire/"
+            >Public Books</a
+          >
+        </li>
+        <li>
+          <em>What My Grandmother&#39;s Eyes Have Seen</em> — Personal essay in
+          <a
+            href="https://catapult.co/stories/essay-grandmothers-eyes-korean-history-family-legacy-julie-moon"
+            >Catapult</a
+          >
+        </li>
+        <li>
+          Jenny Holzer: <em>For You</em> — Translation for
+          <a
+            href="https://www.mmca.go.kr/eng/exhibitions/exhibitionsDetail.do?exhId=201911140001205"
+            >National Museum of Modern and Contemporary Art, South Korea</a
+          >
+          and <a href="https://projects.jennyholzer.com">Jenny Holzer</a>
+        </li>
+        <li>
+          <em>Finding Mothers</em> — Personal essay in
+          <a
+            href="https://www.essaydaily.org/2019/01/julie-moon-finding-mothers.html"
+            >EssayDaily</a
+          >
+        </li>
+        <li>
+          <em>Neurodevelopmental Effects of Fracking</em> — Literature review in
+          <a
+            href="https://www.degruyter.com/view/journals/reveh/33/1/article-p3.xml"
+            >Journal of Environmental Health</a
+          >
+        </li>
+        <li>
+          <em>Date Paintings</em> — Live performance for
+          <a
+            href="https://hirshhorn.si.edu/event/sound-scene-xi-mapping-memory/2018-07-07/"
+            >The Hirshhorn Museum</a
+          >
+          &amp; recording for
+          <a
+            href="https://www.missourireview.com/2018-miller-audio-prize-winner-in-poetry-date-paintings-by-julie-moon/"
+            >The Missouri Review Miller Audio Prize in Poetry</a
+          >
+        </li>
+        <li>
+          Do Ho Suh: <em>The Perfect Home</em> — Review in
+          <a
+            href="http://columbiajournal.org/do-ho-suh-building-a-new-definition-of-home/"
+            >Columbia Journal</a
+          >
+        </li>
+        <li>
+          Reema Zaman: <em>I am Yours</em> — Book review in
+          <a href="https://therumpus.net/2019/03/i-am-yours-by-reema-zaman/"
+            >The Rumpus</a
+          >
+        </li>
+        <li>
+          Seongwon Park: <em>Dalloway&#39;s Window</em> — Translation in
+          <a href="https://brooklynrail.org/2019/06/fiction/Dalloways-Window"
+            >Brooklyn Rail</a
+          >
+        </li>
+        <li>
+          Eunsung Kim: <em>My Mother&#39;s Story</em> — Translation in
+          <a href="https://www.arkint.org/eun-sung-kim"
+            >Arkansas International</a
+          >
+          and
+          <a href="https://aaww.org/my-mothers-story/"
+            >The Asian American Writers’ Workshop</a
+          >
+        </li>
+      </ul>
+    </main>
   </body>
 </html>
