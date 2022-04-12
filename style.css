@@ -42,7 +42,7 @@ html {
 
   font-family: "Self Modern", serif;
   line-height: 1.6;
-  color: rgba(14, 0, 32, 0.7);
+  color: rgba(19, 2, 43, 0.7);
   background: #f4eef7;
   font-size: calc(1rem + (3 - 1) * (100vw - 20rem) / (90 - 20));
 }
@@ -136,7 +136,7 @@ h6 {
   font-weight: normal;
 }
 
-hr {xp
+hr {
   border-top: solid 1px currentColor;
 }
 
