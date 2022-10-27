@@ -169,3 +169,8 @@ strong {
   margin-left: -0.15rem;
   margin-right: -0.15rem;
 }
+
+footer {
+  margin-top: 1rem;
+  font-size: 70%;
+}
