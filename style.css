@@ -100,7 +100,7 @@ li:nth-child(7n + 5) > a:hover {
 }
 
 body {
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 header {
@@ -172,5 +172,6 @@ strong {
 
 footer {
   margin-top: 1rem;
-  font-size: 70%;
+  font-size: 50%;
+  text-align: end;
 }
