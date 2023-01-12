@@ -175,3 +175,7 @@ footer {
   font-size: 50%;
   text-align: end;
 }
+
+footer a {
+  padding-inline: 0.5em;
+}
